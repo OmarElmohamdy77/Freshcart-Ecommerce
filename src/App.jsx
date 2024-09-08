@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 import "./App.css";
-import { createBrowserRouter, createHashRouter, RouterProvider } from "react-router-dom";
+import { createHashRouter, RouterProvider } from "react-router-dom";
 import Layout from "./Components/LayOut/LayOut.jsx";
 import Home from "./Components/Home/Home.jsx";
 import Cart from "./Components/Cart/Cart.jsx";
@@ -17,7 +17,7 @@ import ProductDetails from "./Components/ProductDetails/ProductDetails.jsx";
 import CartContextProvider from "./Context/CartContext.jsx";
 import { Toaster } from "react-hot-toast";
 import Allorders from "./Components/Allorders/Allorders.jsx";
-import Checkout from "./Components/CheckOut/CheckOut.jsx";
+import CheckOut from "./Components/CheckOut/CheckOut.jsx";
 import Wishlist from "./Components/Wishlist/Wishlist.jsx";
 import ForgetPassword from "./Components/ForgetPassword/ForgetPassword.jsx";
 import VerifyCode from "./Components/VerifyCode/VerifyCode.jsx";

@@ -4,7 +4,7 @@ import React, { useContext } from 'react'
 import { CartContext } from '../../Context/CartContext'
 import LoadingScreen from '../LoadingScreen/LoadingScreen'
 
-export default function Checkout() {
+export default function CheckOut() {
 
 
     const { checkOut } = useContext(CartContext)
