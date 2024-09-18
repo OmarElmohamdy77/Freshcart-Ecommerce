@@ -1,10 +1,10 @@
 import { useState } from "react";
 
 import "./App.css";
-import { createBrowserRouter,createHashRouter, RouterProvider } from "react-router-dom";
+import {  createHashRouter, RouterProvider } from "react-router-dom";
 import Layout from "./Components/LayOut/LayOut.jsx";
 import Home from "./Components/Home/Home.jsx";
-import Cart fromr "./Components/Cart/Cart.jsx";
+import Cart from "./Components/Cart/Cart.jsx";
 import Products from "./Components/Products/Products.jsx";
 import Categories from "./Components/Categories/Categories.jsx";
 import Brands from "./Components/Brands/Brands.jsx";
